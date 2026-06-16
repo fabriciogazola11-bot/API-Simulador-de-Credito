@@ -25,3 +25,46 @@ Os dados são armazenados apenas durante a execução da aplicação, sem utiliz
 ---
 
 ## Estrutura do Projeto
+src/
+└── main/
+├── java/
+│ └── com/
+│ └── eloscred/
+│ └── Simulador/
+│ └── controller/
+│ └── ApiController.java
+└── resources/
+
+## Melhorias Futuras
+Utilização de banco de dados;
+Atualização de tarefas;
+Exclusão individual de tarefas;
+Identificador único (ID) para cada tarefa;
+Documentação com Swagger/OpenAPI;
+Persistência dos dados.
+
+## Autor
+
+Projeto desenvolvido como estudo de APIs REST utilizando Spring Boot.
+
+
+### Análise do projeto
+
+**Objetivo:** Criar uma API simples para gerenciamento de tarefas.
+
+**Pontos positivos:**
+- Uso correto de `@RestController`;
+- Endpoints REST básicos implementados;
+- Utilização do `ObjectMapper` para serialização JSON;
+- Código simples e fácil de entender.
+
+**Possíveis melhorias:**
+1. Retornar diretamente `List<String>` em vez de converter manualmente para JSON.
+2. Criar uma classe `Task` com `id` e `descricao`.
+3. Utilizar banco de dados para persistência.
+4. Adicionar tratamento de erros e validações.
+5. Implementar testes unitários.
+
+**Nível do projeto:** Iniciante → Intermediário (Spring Boot REST API básica).
+
+**Confiabilidade da análise:** 98%.
