@@ -45,7 +45,7 @@ Persistência dos dados.
 
 ## Autor
 
-Projeto desenvolvido como estudo de APIs REST utilizando Spring Boot.
+Projeto desenvolvido por Fabricio, como estudo de APIs REST utilizando Spring Boot.
 
 
 ### Análise do projeto
